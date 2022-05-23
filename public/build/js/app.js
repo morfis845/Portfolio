@@ -1,0 +1,1 @@
+const openMenu=document.querySelector(".open-menu"),closeMenu=document.querySelector(".close-menu");openMenu.addEventListener("click",(function(){const e=document.querySelector(".nav");e.classList.remove("hide"),e.classList.add("show")})),closeMenu.addEventListener("click",(function(){const e=document.querySelector(".nav");e.classList.remove("show"),e.classList.add("hide")}));
