@@ -14,41 +14,45 @@
 </head>
 
 <body>
-    <header>
-        <h1 class="label">jorge-pineda</h1>
-        <img class="hamburger open-menu" src="public/build/img/menu-line.svg" alt="">
-    </header>
-    <div class="nav hide">
-        <div class="header-nav">
-            <p>jorge-pineda</p>
-            <img class="hamburger close-menu" src="public/build/img/close-line.svg" alt="">
-        </div>
-        <nav>
-            <ul>
-                <li>_hola</li>
-                <li>_acerca-de-mí</li>
-                <li>_proyectos</li>
-                <li>_contactame</li>
-            </ul>
-        </nav>
-        <div class="footer-nav">
-            <p>Encuentrame en:</p>
-            <div class="icons-footer">
-                <a href=""><img src="public/build/img/linkedin-line.svg" alt=""></a>
-                <a href=""><img src="public/build/img/github-fill.svg" alt=""></a>
-            </div>
-        </div>
+    <div class="colors">
+        <div class="color"></div>
+        <div class="color"></div>
     </div>
-    <main>
-        <div class="colors">
-            <div class="color"></div>
-            <div class="color"></div>
+    <header>
+        <div class="header">
+            <a href=""><h1 class="label">jorge-pineda</h1></a>
+            <div class="hamburger"></div>
         </div>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <div class="left">
+                        <a href="" class="active">
+                            <li>_hola</li>
+                        </a>
+                        <a href="">
+                            <li>_acerca-de-mí</li>
+                        </a>
+                        <a href="">
+                            <li>_proyectos</li>
+                        </a>
+                    </div>
+                    <div class="right">
+                        <a href="">
+                            <li>_contactame</li>
+                        </a>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
         <div class="presentation">
             <div class="iam">
                 <p class="hello">Hola. Soy</p>
                 <h1 class="myname">Jorge Pineda</h1>
-                <p class="developer">>Junior Web developer</p>
+                <p class="developer">> Junior Web developer</p>
             </div>
             <div class="github">
                 <p class="github-profile">// find my profile on Github:</p>
@@ -57,7 +61,46 @@
                 </p>
             </div>
         </div>
+        <div class="game">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="screen-game"></div>
+            <div class="alert-game"><p></p></div>
+            <div class="btn btn-ghost repeatGame">reiniciar-juego</div>
+            <div class="btn btn-primary startGame show">start-game</div>
+            <div class="tutorial">
+                <p>//usa las flechas</p>
+                <p>//del teclado para jugar</p>
+                <div class="arrows">
+                    <div class="arrow arrow-up"><img src="public/build/img/arrow-up-s-fill.svg" alt=""></div>
+                    <div class="arrow arrow-right"><img src="public/build/img/arrow-right-s-fill.svg" alt=""></div>
+                    <div class="arrow arrow-down"><img src="public/build/img/arrow-down-s-fill.svg" alt=""></div>
+                    <div class="arrow arrow-left"><img src="public/build/img/arrow-left-s-fill.svg" alt=""></div>
+                </div>
+            </div>
+            <div class="left">
+                <p>//comida restante</p>
+                <div class="food-left">
+                    <div class="food"></div>
+                    <div class="food"></div>
+                    <div class="food"></div>
+                    <div class="food"></div>
+                    <div class="food"></div>
+                </div>
+            </div>
+        </div>
     </main>
+    <footer class="footer">
+        <p>Encuentrame en:</p>
+        <div class="icons-footer">
+            <a href=""><img src="public/build/img/linkedin-line.svg" alt=""></a>
+            <a href=""><img src="public/build/img/github-fill.svg" alt=""></a>
+        </div>
+    </footer>
     <script src="public/build/js/app.js"></script>
+    <script src="public/build/js/snake.js"></script>
 </body>
+
 </html>
