@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/build/css/app.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a href="index.html">
+                <h1 class="label">jorge-pineda</h1>
+            </a>
+            <div class="hamburger"></div>
+        </div>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <div class="left">
+                        <a href="index.html">
+                            <li>_hola</li>
+                        </a>
+                        <a href="aboutme.html">
+                            <li>_acerca-de-mí</li>
+                        </a>
+                        <a href="projects.html" class="active">
+                            <li>_proyectos</li>
+                        </a>
+                    </div>
+                    <div class="right">
+                        <a href="contact.html">
+                            <li>_contactame</li>
+                        </a>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container-projects">
+        <h1 class="title">_proyectos</h1>
+        <div class="nav-tech">
+            <nav>
+                <div class="select-tech">
+                    <img src="public/build/img/arrow-right-s-fill.svg" class="arrow" alt="">
+                    <p>tecnologias</p>
+                </div>
+                <ul class="ul-projects">
+                    <div class="frontend">
+                        <li>Front-End</li>
+                        <ul class="ul-frontend">
+                            <form class="frontend-form">
+                                <li>
+                                    <input type="checkbox" name="frontend" id="html" class="checkbox">
+                                    <label for="html">HTML</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="frontend" id="css" class="checkbox">
+                                    <label for="css">CSS</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="frontend" id="sass" class="checkbox">
+                                    <label for="sass">SASS</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="frontend" id="js" class="checkbox">
+                                    <label for="js">JavaScript</label>
+                                </li>
+                            </form>
+                        </ul>
+                    </div>
+                    <div class="backend">
+                        <li>Back-End</li>
+                        <ul class="ul-backend">
+                            <form class="backend-form">
+                                <li>
+                                    <input type="checkbox" name="backend" id="php" class="checkbox">
+                                    <label for="php">PHP</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="backend" id="csharp" class="checkbox">
+                                    <label for="csharp">C#.NetCore</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="backend" id="mysql" class="checkbox">
+                                    <label for="mysql">MySql</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="backend" id="sqlserver" class="checkbox">
+                                    <label for="sqlserver">SqlServer</label>
+                                </li>
+                            </form>
+                        </ul>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+        <section>
+            <p class="title">// projects <span>/ all</span></p>
+            <div class="projects">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Encuentrame en:</p>
+        <div class="icons-footer">
+            <a href="https://www.linkedin.com/in/jorge-pineda-26047a231/" target="_blank"><img
+                    src="public/build/img/linkedin-line.svg" alt=""></a>
+            <a href="https://github.com/morfis845" target="_blank"><img src="public/build/img/github-fill.svg"
+                    alt=""></a>
+        </div>
+    </footer>
+    <script src="public/build/js/app.js"></script>
+    <script src="public/build/js/projects.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+[
+    {
+        "title": " _blog-cafe",
+        "img": "public/build/img/img-blogcafe.png",
+        "description": "Construido con HTML CSS y JavaScript",
+        "icon": "public/build/img/reactjs-fill.svg",
+        "tech": [
+            "html",
+            "css",
+            "js"
+        ],
+        "icons": [
+            {
+                
+            }
+        ],
+        "link": "https://google.com"
+    },
+    {
+        "title": " _front-end-store",
+        "img": "public/build/img/img-store.png",
+        "description": "Construido con HTML CSS y JavaScript",
+        "icon": "public/build/img/reactjs-fill.svg",
+        "tech": [
+            "html",
+            "css",
+            "js"
+        ],
+        "link": "https://google.com"
+    },
+    {
+        "title": " _festival-music",
+        "img": "public/build/img/img-festival.png",
+        "description": "Construido con HTML SASS y JavaScript",
+        "icon": "public/build/img/reactjs-fill.svg",
+        "tech": [
+            "html",
+            "js",
+            "sass"
+        ],
+        "link": "https://google.com"
+    },
+    {
+        "title": " _real-state",
+        "img": "public/build/img/img-realstate.png",
+        "description": "Sitio para negocios de bienes y raices construido con PHP MVC SASS incluye un panel de administracion con inicio de sesion",
+        "icon": "public/build/img/reactjs-fill.svg",
+        "tech": [
+            "php",
+            "js",
+            "sass",
+            "mysql"
+        ],
+        "link": "https://google.com"
+    },
+    {
+        "title": " _app-salon",
+        "img": "public/build/img/img-appsalon.png",
+        "description": "Sitio para hacer reservaciones para una barberia/salon de belleza construido con PHP MVC SASS incluye un panel de administracion con inicio de sesion y registro de usuarios, realiza conexion a una API creada con PHP",
+        "icon": "public/build/img/reactjs-fill.svg",
+        "tech": [
+            "php",
+            "js",
+            "sass",
+            "mysql"
+        ],
+        "link": "https://google.com"
+    },
+    {
+        "title": " _up-tast",
+        "img": "public/build/img/img-uptask.png",
+        "description": "Aplicacion de gestion de tareas construida con PHP MVC SASS incluye resgistro de usuarios e inicio de sesion",
+        "icon": "public/build/img/reactjs-fill.svg",
+        "tech": [
+            "php",
+            "js",
+            "sass",
+            "mysql"
+        ],
+        "link": "https://google.com"
+    },
+    {
+        "title": " _manejo-presupuesto",
+        "img": "public/build/img/img-manejopresupuesto.png",
+        "description": "Aplicacion de gestion de presupuesto construida en C#.Net Core MVC con login y registro de usuarios",
+        "icon": "public/build/img/reactjs-fill.svg",
+        "tech": [
+            "csharp",
+            "sqlserver"
+        ],
+        "link": "https://google.com"
+    }
+]
