@@ -14,7 +14,7 @@
                 
             }
         ],
-        "link": "https://google.com"
+        "link": "https://youtube.com"
     },
     {
         "title": " _front-end-store",
@@ -26,7 +26,7 @@
             "css",
             "js"
         ],
-        "link": "https://google.com"
+        "link": "https://youtube.com"
     },
     {
         "title": " _festival-music",
@@ -38,7 +38,7 @@
             "js",
             "sass"
         ],
-        "link": "https://google.com"
+        "link": "https://festival.morfisdev.com/"
     },
     {
         "title": " _real-state",
@@ -51,7 +51,7 @@
             "sass",
             "mysql"
         ],
-        "link": "https://google.com"
+        "link": "https://github.com/morfis845"
     },
     {
         "title": " _app-salon",
